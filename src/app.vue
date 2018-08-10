@@ -161,7 +161,7 @@ export default {
 
     methods: {
         cartView () {
-            this.$http.get("/src/cart.json").then(res=>{
+            this.$http.get("/src/data/cart.json").then(res=>{
                 this.productList = res.body.result.list;
             })
         },

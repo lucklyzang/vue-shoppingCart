@@ -183,7 +183,7 @@ export default {
     },
     methods:{
       getAddressData () {
-            this.$http.get('/src/address.json').then(res =>{
+            this.$http.get('/src/data/address.json').then(res =>{
                 const resp = res.body;
                 if(res.status == 200){
                     this.addressList = resp.result;
