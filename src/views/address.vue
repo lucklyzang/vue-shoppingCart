@@ -216,9 +216,9 @@ export default {
 }
 </script>
 <style>
-@import  './assets/style/base.css';
-@import './assets/style/modal.css';
-@import './assets/style/address.css';
+@import  '../assets/style/base.css';
+@import '..//assets/style/modal.css';
+@import '..//assets/style/address.css';
 .quantity input {
     width: 40px;
     padding: 5px 10px;

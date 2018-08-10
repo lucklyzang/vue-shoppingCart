@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './app.vue'
-import Address from './address.vue'
+import Address from './views/address.vue'
 import VueResource from 'vue-resource'
 
 Vue.use(VueResource)
