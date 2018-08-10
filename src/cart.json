@@ -1,0 +1,63 @@
+{
+    "status": 0,
+    "message": "success",
+    "result": {
+        "totalHoney":59,
+        "list":[
+        {
+        "name": "香烟",
+        "price": 19,
+        "count": 1,
+        "amount": 19,
+        "imgPic": "src/assets/img/goods-1.jpg",
+        "gifts": [
+          {
+            "partId":"10001",
+            "partName":"打火机"
+          },
+          {
+            "partId":"10002",
+            "partName":"烟灰缸"
+          }
+        ]
+        },
+        {
+        "name": "加多宝",
+        "price": 20,
+        "count": 1,
+        "amount": 20,
+        "imgPic": "src/assets/img/goods-2.jpg",
+          "gifts": [
+            {
+              "partId":"10001",
+              "partName":"可乐"
+            },
+            {
+              "partId":"10002",
+              "partName":"辣条"
+            }
+          ]
+        },
+          {
+            "name": "打火机",
+  
+            "price": 20,
+            "count": 1,
+            "amount": 20,
+            "imgPic": "src/assets/img/part-1.jpg",
+            "gifts": [
+              {
+                "partId":"10001",
+                "partName":"香水"
+              },
+              {
+                "partId":"10002",
+                "partName":"沐浴露"
+              }
+            ]
+          }
+        ]
+    }
+  
+  }
+  
