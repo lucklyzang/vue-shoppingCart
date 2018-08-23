@@ -105,7 +105,9 @@
                             Item total: <span class="total-price">{{ totalMoney | formatMoney('元') }}</span>
                             </div>
                             <div class="next-btn-wrap">
-                            <a href="./address.vue" class="btn btn--red" style="width: 200px">结账</a>
+
+                            <router-link to="/address" tag="a" class="btn btn--red" style="width: 200px">结账</router-link>
+
                             </div>
                         </div>
                     </div>
